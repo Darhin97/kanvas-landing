@@ -139,7 +139,7 @@ export default function Home() {
       </section>
       <section
         data-name={"about-us-section"}
-        className={"py-20 text-new-sky"}
+        className={"py-20 pt-24 text-new-sky"}
         id={"about-us"}
       >
         <div className={"max-w-screen-xl mx-auto px-5"}>
@@ -194,7 +194,7 @@ export default function Home() {
       </section>
       <section
         id={"how-it-works"}
-        className={"py-10 text-new-sky"}
+        className={"py-20 text-new-sky"}
         data-name={"how-it-works-section"}
       >
         <div className={"max-w-screen-xl mx-auto px-5"}>
@@ -340,7 +340,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id={"FAQ"} data-name={"FAQ-section"} className={"py-10"}>
+      <section id={"FAQ"} data-name={"FAQ-section"} className={"py-20"}>
         <div className={"max-w-screen-xl mx-auto px-5"}>
           <div className={"w-full text-center space-y-4 mb-12"}>
             <h2 className={"font-semibold text-2xl sm:text-3xl"}>
@@ -356,8 +356,9 @@ export default function Home() {
         </div>
       </section>
       <section
+        id={"contact-us"}
         data-name={"contact-us-section"}
-        className={"bg-white relative py-16"}
+        className={"bg-white relative py-20 pt-24"}
       >
         <div
           className={"absolute md:hidden inset-0 bg-red-600"}

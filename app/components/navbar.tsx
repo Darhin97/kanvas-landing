@@ -59,6 +59,20 @@ const Navbar = () => {
                 {item.label}
               </Link>
             ))}
+
+            <div className={"flex-col flex space-y-4 md:hidden mt-5"}>
+              <Button
+                variant={"solid"}
+                className={"rounded bg-new-sky-light text-white font-medium"}
+              >
+                Login
+              </Button>
+              <Button
+                className={"rounded bg-new-sky text-white px-5 py-1 w-full"}
+              >
+                Register
+              </Button>
+            </div>
           </div>
         </div>
       </div>
