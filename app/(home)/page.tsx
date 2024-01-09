@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main
       className={
-        "bg-[#F0F0FA] min-h-[calc(100%-5rem)] pt-7 overflow-scroll scroll-smooth"
+        "bg-[#F0F0FA] flex-1 flex-col pt-7 overflow-scroll scroll-smooth"
       }
     >
       <section id={"/"} data-name={"header-section"} className={"pt-20 h-full"}>

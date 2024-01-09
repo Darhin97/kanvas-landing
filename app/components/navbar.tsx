@@ -24,7 +24,7 @@ const navItems = [
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <header className={"inset-x-0 fixed inset-0 h-20 bg-white shadow-md z-50"}>
+    <header className={"inset-x-0 sticky inset-0 h-20 bg-white shadow-md z-50"}>
       {/* mobile nave */}
       <div
         className={cn(

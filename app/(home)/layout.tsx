@@ -6,7 +6,7 @@ import Link from "next/link";
 const HomePageLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <Providers>
-      <div className={"h-full"}>
+      <div className={"min-h-screen"}>
         <Navbar />
         {children}
         <footer className={"pt-10 bg-[#141419] text-white"}>
