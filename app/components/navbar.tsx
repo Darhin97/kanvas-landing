@@ -5,6 +5,7 @@ import { Button } from "@nextui-org/button";
 import { LuAlignJustify, LuX } from "react-icons/lu";
 import { useState } from "react";
 import { cn } from "@/app/utils";
+import { useRouter } from "next/navigation";
 
 const navItems = [
   {
@@ -23,6 +24,7 @@ const navItems = [
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const router = useRouter();
   return (
     <header className={"inset-x-0 sticky inset-0 h-20 bg-white shadow-md z-50"}>
       {/* mobile nave */}
@@ -82,7 +84,10 @@ const Navbar = () => {
           "max-w-screen-xl flex items-center justify-between px-5 py-3 mx-auto "
         }
       >
-        <div className={"relative w-24 md:w-28 h-12"}>
+        <div
+          className={"relative w-24 md:w-28 h-12"}
+          onClick={() => router.push("/")}
+        >
           <Image
             src={"/assets/logo.svg"}
             alt={"logo"}
