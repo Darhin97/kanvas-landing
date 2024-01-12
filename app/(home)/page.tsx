@@ -164,21 +164,31 @@ export default function Home() {
 
               <div
                 className={
-                  "space-y-4 place-self-center mr-5 flex flex-col items-center md:items-center text-center md:text-start"
+                  "space-y-4 place-self-center mr-5 flex flex-col items-center md:items-start text-center md:text-start"
                 }
               >
                 <p className={"text-3xl md:text-4xl font-semibold"}>
                   <span className={"text-new-sky-light"}>About</span> Us
                 </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-                  magni praesentium sapiente sed velit. Accusamus asperiores
-                  delectus dignissimos iusto neque nostrum perspiciatis placeat
-                  qui repellendus reprehenderit sapiente, tempora, voluptatum.
-                  Minima. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit. Aspernatur assumenda distinctio dolorem eius, error fuga
-                  ipsum labore maxime minima minus nisi officiis, optio
-                  pariatur, perferendis quae quos rem! Ipsum, voluptatem!
+                <p className={"text-center md:text-justify"}>
+                  Like many Career Leaders across the country, if you’ve ever
+                  managed work experience you know that it’s labour-intensive,
+                  sometimes costly and not very straightforward. It can be a
+                  nightmare sorting out placement details, insurance documents
+                  and making sure all relevant parties have the information they
+                  need.
+                </p>
+                <p className={"text-center md:text-justify"}>
+                  That’s why we developed the Knvas app; we wanted a cheaper and
+                  easier alternative that schools could use. Work Experience is
+                  an invaluable career-developing activity and it’s a shame that
+                  some schools aren’t able to offer their students this
+                  opportunity because of costs or a lack of manpower.
+                </p>
+                <p className={"text-center md:text-justify"}>
+                  The Knvas app enables you to manage all your placements at the
+                  click of a button ensuring you have all the important
+                  information on hand whenever you need it.{" "}
                 </p>
                 <div>
                   <Button
@@ -217,17 +227,17 @@ export default function Home() {
                 }
               >
                 <h3 className={"font-semibold text-2xl sm:text-3xl"}>
-                  <span className={"text-new-sky-light"}>Student</span>Portal
+                  <span className={"text-new-sky-light"}>Student</span> Portal
                 </h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-                  deserunt dignissimos fugiat minima praesentium. Aliquam autem
-                  consectetur debitis ea enim, expedita impedit, inventore nihil
-                  optio porro quo soluta vitae, voluptatibus. Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit. Architecto corporis
-                  culpa dicta, eligendi maxime, nulla praesentium repellendus
-                  sed similique unde veniam voluptatum? Beatae eaque error ipsa
-                  maxime quia unde velit.
+                <p className={"text-center md:text-justify"}>
+                  Quickly and easily complete your candidate profile, enter
+                  placement information and see the status of your work
+                  placement application.
+                </p>
+                <p className={"text-center md:text-justify"}>
+                  Knvas will help you by communicating relevant placement
+                  information to your school, the employer and your
+                  parents/carers.
                 </p>
               </div>
               <div
@@ -263,15 +273,14 @@ export default function Home() {
                 <h3 className={"font-semibold text-2xl sm:text-3xl"}>
                   <span className={"text-new-sky-light"}>Student</span>Portal
                 </h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-                  deserunt dignissimos fugiat minima praesentium. Aliquam autem
-                  consectetur debitis ea enim, expedita impedit, inventore nihil
-                  optio porro quo soluta vitae, voluptatibus. Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit. Architecto corporis
-                  culpa dicta, eligendi maxime, nulla praesentium repellendus
-                  sed similique unde veniam voluptatum? Beatae eaque error ipsa
-                  maxime quia unde velit.
+                <p className={"text-center md:text-justify"}>
+                  Manage all your work experience placements at the click of a
+                  button.
+                </p>
+                <p className={"text-center md:text-justify"}>
+                  With our user-friendly dashboard, you will be able to quickly
+                  identify which stage of the placement process your students
+                  are on.
                 </p>
               </div>
             </div>

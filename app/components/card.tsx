@@ -20,7 +20,7 @@ const Card = () => {
         industry.
       </p>
       <div className={"space-y-1"}>
-        <div className={"flex items-center space-x-2"}>
+        <div className={"flex items-start md:items-center space-x-2"}>
           <div className={"relative h-5 w-5"}>
             <Image
               src={"/assets/check.svg"}
@@ -31,7 +31,7 @@ const Card = () => {
           </div>
           <span>Lorem Ipsum is simply dummy text.</span>
         </div>
-        <div className={"flex items-center space-x-2"}>
+        <div className={"flex items-start md:items-center space-x-2"}>
           <div className={"relative h-5 w-5"}>
             <Image
               src={"/assets/check.svg"}
@@ -42,7 +42,7 @@ const Card = () => {
           </div>
           <span>Lorem Ipsum is simply dummy text.</span>
         </div>
-        <div className={"flex items-center space-x-2"}>
+        <div className={"flex items-start md:items-center space-x-2"}>
           <div className={"relative h-5 w-5"}>
             <Image
               src={"/assets/check.svg"}
@@ -53,7 +53,7 @@ const Card = () => {
           </div>
           <span>Lorem Ipsum is simply dummy text.</span>
         </div>
-        <div className={"flex items-center space-x-2"}>
+        <div className={"flex items-start md:items-center space-x-2"}>
           <div className={"relative h-5 w-5"}>
             <Image
               src={"/assets/check.svg"}
@@ -64,7 +64,7 @@ const Card = () => {
           </div>
           <span>Lorem Ipsum is simply dummy text.</span>
         </div>
-        <div className={"flex items-center space-x-2"}>
+        <div className={"flex items-start md:items-center space-x-2"}>
           <div className={"relative h-5 w-5"}>
             <Image
               src={"/assets/check.svg"}
