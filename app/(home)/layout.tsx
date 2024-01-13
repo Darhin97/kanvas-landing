@@ -12,30 +12,31 @@ const HomePageLayout = ({ children }: { children: React.ReactNode }) => {
         <footer className={"pt-10 bg-[#141419] text-white"}>
           <div
             className={
-              "max-w-screen-xl mx-auto px-5 border-b border-b-white py-5 md:py-10"
+              "max-w-screen-xl mx-auto px-5  border-b border-b-white py-5 md:py-10"
             }
           >
             <div className={"grid md:grid-cols-[1fr,1.8fr] gap-5"}>
               <div
                 className={" w-full px-5 sm:px-16 md:px-0 md:max-w-sm mx-auto"}
               >
-                <div className={"flex flex-col gap-y-4"}>
+                <div className={"flex flex-col gap-y-4  "}>
                   <h3 className={"font-semibold text-xl italic"}>KNVAS</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Amet, assumenda dolorem error eveniet ipsum labore
-                    laboriosam laudantium natus odio odit omnis quam quis quos
-                    reiciendis reprehenderit temporibus tenetur totam vero?
+                  <p className={""}>
+                    Like many Career Leaders across the country, if you’ve ever
+                    managed work experience you know that it’s labour-intensive,
+                    sometimes costly and not very straightforward.
                   </p>
                 </div>
               </div>
               <div
                 className={
-                  "flex gap-5 justify-center items-start md:justify-start flex-wrap md:grid md:grid-cols-[1fr,1fr,1.5fr] w-full"
+                  "flex gap-5 justify-center items-start md:justify-start flex-wrap md:content-start md:grid md:grid-cols-[1fr,1fr,1.5fr] w-full"
                 }
               >
                 <div
-                  className={"flex flex-col gap-2 text-sm md:text-base p-5 "}
+                  className={
+                    "flex flex-col gap-2 text-sm md:text-base p-2 md:p-0 "
+                  }
                 >
                   <h3 className={"font-medium text-xl"}>Platform</h3>
                   <p>School Portal</p>
@@ -43,7 +44,9 @@ const HomePageLayout = ({ children }: { children: React.ReactNode }) => {
                   <p>School Portal</p>
                 </div>
                 <div
-                  className={"flex flex-col gap-2 text-sm md:text-base p-5 "}
+                  className={
+                    "flex flex-col gap-2 text-sm md:text-base p-2 md:p-0  "
+                  }
                 >
                   <h3 className={"font-medium text-xl"}>Company</h3>
                   <Link href={"#about-us"}>About us</Link>
@@ -52,7 +55,7 @@ const HomePageLayout = ({ children }: { children: React.ReactNode }) => {
                 </div>
                 <div
                   className={
-                    "flex flex-col gap-2 text-sm md:text-base p-5 text-center xs:text-start"
+                    "flex flex-col gap-2 text-sm md:text-base p-2 md:p-0  text-center xs:text-start"
                   }
                 >
                   <h3 className={"font-medium text-xl"}>Contact Us</h3>
@@ -64,7 +67,7 @@ const HomePageLayout = ({ children }: { children: React.ReactNode }) => {
               </div>
             </div>
           </div>
-          <div className={"py-10"}>
+          <div className={"py-7"}>
             <div
               className={
                 "max-w-screen-xl mx-auto px-5 flex justify-between items-center text-sm sm:text-base"

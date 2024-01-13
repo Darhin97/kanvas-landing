@@ -6,6 +6,41 @@ import Card from "@/app/components/card";
 import AccordionCard from "@/app/components/accordion";
 import { Input, Textarea } from "@nextui-org/input";
 
+const packages = [
+  {
+    name: "Bronze Package",
+    description:
+      "The Bronze Knvas Work Experience School Portal includes the following Services.",
+    info: {
+      t1: "Full Knvas School Portal Access",
+      t2: "School Portal Self Management",
+    },
+  },
+  {
+    name: "Silver Package",
+    description:
+      "The Silver Knvas Work Experience School Portal includes the following Services. ",
+    info: {
+      t1: "Full Knvas School Portal Access",
+      t2: "School Portal Dedicated Management",
+      t3: "Dedicated Student Uploads",
+      t4: "Dedicated Review and Employer Collaboration",
+    },
+  },
+  {
+    name: "Gold Package",
+    description:
+      "The Gold Knvas Work Experience School Portal includes the following Services. ",
+    info: {
+      t1: "Full Knvas School Portal Access",
+      t2: "School Portal Dedicated Management",
+      t3: "Dedicated Student Uploads",
+      t4: "Dedicated Review and Employer Collaboration",
+      t5: "Sourcing Eligible Employers",
+    },
+  },
+];
+
 export default function Home() {
   return (
     <main
@@ -271,7 +306,7 @@ export default function Home() {
                 }
               >
                 <h3 className={"font-semibold text-2xl sm:text-3xl"}>
-                  <span className={"text-new-sky-light"}>Student</span>Portal
+                  <span className={"text-new-sky-light"}>Student</span> Portal
                 </h3>
                 <p className={"text-center md:text-justify"}>
                   Manage all your work experience placements at the click of a
@@ -343,9 +378,9 @@ export default function Home() {
               "flex gap-5 items-center justify-center transition flex-wrap"
             }
           >
-            <Card />
-            <Card />
-            <Card />
+            {packages.map((item, index) => (
+              <Card data={item} key={index} index={index} />
+            ))}
           </div>
         </div>
       </section>
