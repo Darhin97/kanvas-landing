@@ -411,7 +411,11 @@ export default function Home() {
           }}
         ></div>
         <div className={"max-w-md md:max-w-screen-xl mx-auto px-5 "}>
-          <div className={"grid grid-cols-1 md:grid-cols-2 gap-4"}>
+          <div
+            className={
+              "grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-10"
+            }
+          >
             <div
               className={"hidden md:block relative w-full h-56 xs:h-[27rem]"}
             >
